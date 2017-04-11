@@ -1,0 +1,119 @@
+@media screen and (max-width: 770px) {
+ 
+    /* NAV BAR */
+    
+    #logo {
+        float: left;
+        text-align: center;
+        width: 30%;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    nav a:hover {
+        text-transform: none;
+    }
+    
+    nav .current a:hover {
+        text-transform: uppercase;
+    }
+    
+    /* LANDING PAGE */
+    
+    #landing-page nav {
+        display: none;
+    }
+
+    
+    /* ABOUT PAGE */
+    
+    #about {
+        padding: 2% 1%;
+    }
+    
+    #about-info {
+        float: none;
+        width: 100%;
+        text-align: justify;
+    }
+    
+    #about-img {
+        float: none;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    /* PORTFOLIO */
+    
+    .entry {
+        width: 40%;
+        float: left;
+        margin: 2% 5%;
+    }
+  
+    .entry:last-child { /* how do I make this just the last one in the last row, or the last row?*/
+        display: none;
+    }
+}
+    
+@media screen and (max-width: 543px) {
+    
+    /* NAV BAR */    
+    header {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    
+    #logo {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    nav {
+        float: none;
+        text-align: center;
+    }
+    
+    nav li {
+        display: block;
+        margin: 0 auto;
+        line-height: 90%;
+    }
+    
+    /* FOOTER */
+    
+    footer {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    /* ABOUT PAGE */
+    
+    #about-info {
+        text-align: center;
+    }
+    
+    #about-info h3 {
+        display: none;
+    }
+    
+    /* PORTFOLIO */
+    
+    .entry {
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .entry img {
+        filter: blur(0px);
+    }
+    
+    figcaption {
+        text-align: center;
+    }
+    
+}

@@ -1,3 +1,5 @@
+/* ENTIRE WEBSITE */
+
 body {
     background-color: #FFF;
     font-family: 'Raleway', sans-serif;
@@ -10,11 +12,22 @@ body {
     margin: 0 auto;
 }
 
-
-
 h3 {
     color: #e91e23;
     font-size: 20px;
+}
+
+#logo {
+    width:70%;
+    float: left;
+    color: #5B6#272727;
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: auto;
+    font-weight: normal;
+    line-height: 24px;
 }
 
 nav {
@@ -45,6 +58,26 @@ nav a:hover {
     text-transform: uppercase;
 }
 
+nav .current {
+    text-transform: uppercase;
+}
+
+footer {
+    clear: both;
+}
+
+h4 {
+    font-variant: small-caps;
+    font-size: 24px;
+}
+
+h5 {
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
 /* LANDING PAGE */
 
 button {
@@ -64,17 +97,20 @@ button:hover {
 }
 
 #landing-page {
-    background-image: url(../img/landing-background.jpg);
-    background-attachment: scroll;
+    
+    background: url(../img/landing-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    height: 100%;
     text-align: center;
     margin: 0px auto;
 }
 
 #landing-page main {
     width: 60%;
-    margin: 15% auto;
+    margin: auto;
+    padding-top: 15%;
     
 }
 
@@ -107,6 +143,9 @@ button:hover {
     font-weight: normal;
     line-height: 24px;
 }
+
+/* ABOUT PAGE */
+
 #about {
     clear: both; 
 }
@@ -128,22 +167,8 @@ button:hover {
     border-radius: 50%;
 }
 
-footer {
-    clear: both;
-}
 
-h4 {
-    font-variant: small-caps;
-    font-size: 24px;
-}
-
-h5 {
-    display: inline;
-    padding-right: 10px;
-    font-size: 20px;
-}
-
-/* Portfolio Grid */
+/* PORTFOLIO GRID */
 
 .row {
     width: 100%;
@@ -163,12 +188,10 @@ h5 {
 .entry img {
     width: 100%;
     height: auto;
-    -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
     filter: blur(1px);
 }
 
 .entry img:hover {
-    -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
     filter: blur(0px);
 }
 .clearfix {
