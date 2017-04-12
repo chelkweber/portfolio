@@ -41,10 +41,10 @@
     
     #about-img {
         float: none;
-        width: 60%;
+        width: 100%;
         margin: 0 auto;
     }
-    
+
     /* PORTFOLIO */
     
     .entry {

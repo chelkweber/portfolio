@@ -159,13 +159,37 @@ button:hover {
     float: right;
     width: 40%;
     margin: 20px 10px; 
+    display: inline-block;
+    position: relative;
 }
 
-#about-img img {
+#me {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
+
+#me2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+}
+
+#about-img:hover #me2 {
+    display: inline;
+}
+
+
+
+
+
 
 
 /* PORTFOLIO GRID */
